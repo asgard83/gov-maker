@@ -31,6 +31,17 @@ class GovMakerServiceProvider extends ServiceProvider
      */
     protected $commands = [
         'Government\GovMaker\MakeViews',
+        'Government\GovMaker\MakeCrud',
+        'Government\GovMaker\MakeFoundation',
+        'Government\GovMaker\MakeMaster',
+        'Government\GovMaker\MakeParentAndChild',
+        'Government\GovMaker\MakeChildOf',
+        'Government\GovMaker\MakeChart',
+        'Government\GovMaker\RemoveFoundation',
+        'Government\GovMaker\RemoveCrud',
+        'Government\GovMaker\RemoveViews',
+        'Government\GovMaker\RemoveChildOf',
+        'Government\GovMaker\RemoveChart',
     ];
 
 
